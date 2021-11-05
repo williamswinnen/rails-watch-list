@@ -14,11 +14,9 @@ import { definitionsFromContext } from "stimulus/webpack-helpers"
 
 // General import
 import 'bootstrap';
-import 'jquery-bar-rating/dist/themes/css-stars';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import { initTyped } from './plugins/init_typedjs';
-import { initStarRating } from './plugins/init_star_rating';
+// import { initTyped } from './plugins/init_typedjs';
 
 // Stimulus
 const application = Application.start()

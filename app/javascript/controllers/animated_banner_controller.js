@@ -1,9 +1,9 @@
+import { Controller } from "stimulus";
 import Typed from 'typed.js';
 
-const initTyped = () => {
-  const element = document.querySelector('.typed-js');
-  if (element) {
-    new Typed('.typed-js', {
+export default class extends Controller {
+  connect() {
+    new Typed(this.element, {
       strings: ['Drama', 'Classic', 'Comedy', 'Action', 'Romantic', 'Thriller', 'Horror', 'Slasher'],
       typeSpeed: 40,
       loop: true,
@@ -11,6 +11,4 @@ const initTyped = () => {
       showCursor: false
     });
   }
-};
-
-export { initTyped };
+}

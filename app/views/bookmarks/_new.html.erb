@@ -9,11 +9,11 @@
       </div>
       <div class="modal-body">
         <%= simple_form_for [@list, @bookmark] do |f| %>
-          <%= f.association :movie, collection: Movie.all.order(:title), prompt: 'Select a movie', input_html: { data: { controller: 'select2' } } %>
-          <%= f.input :comment, placeholder: 'Enter a comment about the movie' %>
+          <%= f.association :movie, collection: Movie.all.order(:title), prompt: "Select a movie", input_html: { data: { controller: "select2" } } %>
+          <%= f.input :comment, placeholder: "Enter a comment about the movie" %>
       </div>
       <div class="modal-footer">
-          <%= f.submit 'Add movie', class: 'btn btn-flat' %>
+          <%= f.submit "Add movie", class: "btn btn-flat" %>
         <% end %>
         <button type="button" class="btn btn-cancel" data-dismiss="modal">Back</button>
       </div>

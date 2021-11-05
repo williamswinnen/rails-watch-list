@@ -16,7 +16,6 @@ import { definitionsFromContext } from "stimulus/webpack-helpers"
 import 'bootstrap';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-// import { initTyped } from './plugins/init_typedjs';
 
 // Stimulus
 const application = Application.start()

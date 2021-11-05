@@ -1,4 +1,4 @@
-import { Controller } from "stimulus";
+import { Controller } from "@hotwired/stimulus";
 import 'jquery-bar-rating';
 import 'jquery-bar-rating/dist/themes/css-stars';
 

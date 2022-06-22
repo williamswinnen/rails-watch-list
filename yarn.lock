@@ -699,7 +699,7 @@ source-map@^0.6.0:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-star-rating.js@^4.2.2:
+star-rating.js@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/star-rating.js/-/star-rating.js-4.2.3.tgz#34cfa60d34373b64a58eee33e258c8361dc5573f"
   integrity sha512-BzoQUPxybTZmFw4JvQjmBaC3YiOhTZwrNCJkNivQVAsK0uvsb7p2de+1Ok/Dc95IwGVEU6JBlHO25dmeuGVKIA==
@@ -750,11 +750,6 @@ tom-select@^2.0.2:
   integrity sha512-IHcVHVb4/+I+4pAuXjEFVoH97mOvjp8CQ45PemnapcoRY46LqmH07hBwvRIIEznsXqBlFgZH7Uw7Cjh45mNlTA==
   dependencies:
     "@orchidjs/sifter" "^0.9.1"
-
-typed.js@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.12.tgz#246aff074c8e18d32ec27acb7be15094ac0bc0e1"
-  integrity sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==
 
 update-browserslist-db@^1.0.0:
   version "1.0.3"

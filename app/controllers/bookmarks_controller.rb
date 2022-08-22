@@ -13,7 +13,7 @@ class BookmarksController < ApplicationController
       redirect_to list_path(@list)
     else
       @review = Review.new
-      render "lists/show", status: :unprocessable_entity
+      render :new, status: :unprocessable_entity
     end
   end
 

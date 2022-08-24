@@ -5,11 +5,10 @@ begin
 rescue LoadError
 end
 
-if defined?(ListsController)
+if defined?(BookmarksController)
 
-  RSpec.describe ListsController, type: :routing do
+  RSpec.describe BookmarksController, type: :routing do
     describe "routing" do
-
       it "routes to #new" do
         expect(get: "/lists/1/bookmarks/new").to route_to(controller: "bookmarks", action: "new", list_id: "1")
       end
@@ -21,8 +20,6 @@ if defined?(ListsController)
       it "routes to #destroy" do
         expect(delete: "/bookmarks/1").to route_to(controller: "bookmarks", action: "destroy", id: "1")
       end
-
     end
   end
-
 end
